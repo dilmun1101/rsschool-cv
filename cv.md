@@ -8,7 +8,7 @@
 
 # About Me
 
-I'm a motivated and curious learner with basic experience in JavaScript. I enjoy problem-solving and have been actively practicing through platforms like Codewars. Currently exploring frontend development and continuously improving my skills.
+Front-end developer with experience in React and TypeScript, focused on building clear and maintainable user interfaces. I actively grow my skills through intensive learning of modern Next.js and solving coding challenges. I pay particular attention to code quality, testing, and user experience.
 
 # Skills
 
