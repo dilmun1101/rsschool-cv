@@ -27,6 +27,15 @@ Front-end developer with experience in React and TypeScript, focused on building
   return number % 2 === 0 ? "Even" : "Odd";
 }`
 
+# Courses
+
+- Tandem as the final project from the main course for technical interview preparation.
+  - [deploy](https://fiercesloth.github.io/rss-tandem-app/)
+  - [github](https://github.com/dilmun1101/rss-tandem-app)
+- Swagger — team project (GMT+5 Development, RS School 2026) for interactive API exploration and testing based on OpenAPI specifications.
+  - [deploy](https://swagger-editor-app-gmt.vercel.app/en/home)
+  - [github](https://github.com/dilmun1101/swagger-editor-app)
+
 # Education
 
 - High school diploma
