@@ -15,8 +15,10 @@ I'm a motivated and curious learner with basic experience in JavaScript. I enjoy
 - HTML
 - CSS (BEM methodology)
 - Preprocessor SCSS
-- JavaScript (Basic)
-- PHP (Basic)
+- JavaScript
+- Typescript
+- React
+- Next
 - Git
 
 # Code Example
@@ -29,10 +31,12 @@ I'm a motivated and curious learner with basic experience in JavaScript. I enjoy
 
 - High school diploma
 - Incomplete Higher Education in "Applied Informatics in Economics"
-  Tomsk State University of Control Systems and Radioelectronics (TUSUR)
+  Tomsk State University of Control Systems and Radioelectronics (TUSUR), 2016-2019 years
 
 # Courses
 
+- [RS School Front-end certificate](https://app.rs.school/certificate/b1en4jym)
+- [RS School React certificate](https://app.rs.school/certificate/6vn4dao7)
 - [freecodecamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/)
 
 # Experience
@@ -42,4 +46,4 @@ I'm a motivated and curious learner with basic experience in JavaScript. I enjoy
 # Languages
 
 - Russian (native)
-- English (A2)
+- English (B1)
