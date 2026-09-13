@@ -12,7 +12,7 @@
 
 body {
 	font-family: "DM Serif Display";
-	background: rgba(238, 236, 245, 0.5);
+	background: rgb(237, 234, 230);
 	padding: 20px 0;
 }
 
@@ -25,9 +25,41 @@ body {
 
 .header {
 	position: relative;
+	padding: 0 0 20px 0;
+}
+
+.navigation__list {
 	display: flex;
-	align-items: center;
-	padding: 20px 0 20px 20px;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	list-style: none;
+	padding-bottom: 20px;
+}
+
+.navigation__link {
+	display: block;
+	padding: 5px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-decoration: none;
+	color: inherit;
+	border: 1px solid #222;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+.navigation__link:hover {
+	border-color: #575645;
+	color: rgb(145, 143, 69);
+	transition: 1.5s;
+}
+
+.header-column {
+	display: flex;
+}
+
+.main {
+	position: relative;
 }
 
 .header-column__small {
@@ -66,6 +98,14 @@ body {
 	font-weight: 600;
 }
 
+.contacts {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	list-style: none;
+	gap: 20px;
+}
+
 .contacts__raw {
 	display: flex;
 	padding: 10px 0;
@@ -82,6 +122,15 @@ body {
 	gap: 10px;
 	text-decoration: none;
 	color: #222;
+}
+
+.contacts__item {
+	min-width: 180px;
+}
+
+.contacts__item_flex {
+	display: flex;
+	gap: 10px;
 }
 
 .contacts__link:hover {
@@ -164,9 +213,11 @@ body {
 /* Skills */
 
 .columns {
+	position: relative;
 	width: 100%;
 	display: flex;
 	padding-top: 30px;
+	padding-bottom: 20px;
 }
 
 .column-left {
@@ -273,10 +324,47 @@ body {
 }
 
 .project__image {
-	width: 450px;
+	width: 100%;
 }
 
 .project__description {
 	letter-spacing: 1px;
 	font-weight: 400;
+}
+
+.code-example {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+pre {
+	font-size: 18px;
+	overflow-x: auto;
+}
+
+.languages {
+	padding-top: 20px;
+}
+
+.footer__wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding-top: 20px;
+}
+
+.github-icon path {
+	width: 20px;
+	height: 20px;
+}
+
+.github-icon:active,
+.rsschool-icon:active,
+.github-icon:hover,
+.rsschool-icon:hover {
+	transition: 1.5s;
+	fill: var(--light-color);
 }
