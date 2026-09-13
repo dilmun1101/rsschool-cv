@@ -12,61 +12,74 @@
 <body>
 	<div class="wrapper">
 		<header class="header">
-			<div class="header-column__small">
-				<div class="avatar">
-					<img class='avatar' src="./img/img.JPG" alt="avatar__image">
-				</div>
-			</div>
-			<div class='header-column__big'>
-				<div class='profile'>
-					<h1 class='profile__name'>Anna Nitsevich</h1>
-					<p class='profile__role'>Frontend developer</p>
-				</div>
-				<div class="contacts">
-					<div class="contacts__raw contacts__raw_border">
-						<a href="https://t.me/dilmun1101" target="_blank" rel="noopener noreferrer"
-							class="contacts__link contacts__link_border contacts__link_padding-right">
-							<svg class="icon">
-								<use href="./img/sprite.svg#telegram"></use>
-							</svg>
-							<p class="contacts-info">
-								<span class="contacts__label">Telegram</span>
-								<span class="contacts__value">@dilmun1101</span>
-							</p>
-						</a>
-
-						<a href="https://discord.gg/your-invite-link" target="_blank" rel="noopener noreferrer"
-							class="contacts__link contacts__link_padding-left">
-							<svg class="icon">
-								<use href="./img/sprite.svg#discord"></use>
-							</svg>
-							<p class="contacts-info">
-								<span class="contacts__label">Discord</span>
-								<span class="contacts__value">@dilmun1101</span>
-							</p>
-						</a>
+			<nav class="navigation">
+				<ul class="navigation__list">
+					<li class="navigation_item"><a class='navigation__link' href="#profile">Profile</a></li>
+					<li class="navigation_item"><a class='navigation__link' href="#skills">Skills</a></li>
+					<li class="navigation_item"><a class='navigation__link' href="#projects">Project</a></li>
+					<li class="navigation_item"><a class='navigation__link' href="#courses">Courses</a></li>
+					<li class="navigation_item"><a class='navigation__link' href="#education">Education</a></li>
+					<li class="navigation_item"><a class='navigation__link' href="#code-example">Code example</a></li>
+					<li class="navigation_item"><a class='navigation__link' href="#languages">Languages</a></li>
+				</ul>
+			</nav>
+			<div>
+				<div class="header-column__small">
+					<div class="avatar">
+						<img class='avatar' src="./img/img.JPG" alt="avatar__image">
 					</div>
+				</div>
+				<div class='header-column__big'>
+					<div class='profile'>
+						<h1 class='profile__name'>Anna Nitsevich</h1>
+						<p class='profile__role'>Frontend developer</p>
+					</div>
+					<div class="contacts">
+						<div class="contacts__raw contacts__raw_border">
+							<a href="https://t.me/dilmun1101" target="_blank" rel="noopener noreferrer"
+								class="contacts__link contacts__link_border contacts__link_padding-right">
+								<svg class="icon">
+									<use href="./img/sprite.svg#telegram"></use>
+								</svg>
+								<p class="contacts-info">
+									<span class="contacts__label">Telegram</span>
+									<span class="contacts__value">@dilmun1101</span>
+								</p>
+							</a>
 
-					<div class="contacts__raw">
-						<a href="mailto:dilmun1101@gmail.com" target="_blank" rel="noopener noreferrer"
-							class="contacts__link contacts__link_border contacts__link_padding-right">
-							<svg class="icon">
-								<use href="./img/sprite.svg#email"></use>
-							</svg>
-							<p class="contacts-info">
-								<span class="contacts__label">Email</span>
-								<span class="contacts__value">dilmun1101@gmail.com</span>
-							</p>
-						</a>
+							<a href="https://discord.gg/your-invite-link" target="_blank" rel="noopener noreferrer"
+								class="contacts__link contacts__link_padding-left">
+								<svg class="icon">
+									<use href="./img/sprite.svg#discord"></use>
+								</svg>
+								<p class="contacts-info">
+									<span class="contacts__label">Discord</span>
+									<span class="contacts__value">@dilmun1101</span>
+								</p>
+							</a>
+						</div>
 
-						<div class="contacts__link contacts__link_padding-left">
-							<svg class="icon">
-								<use href="./img/sprite.svg#location"></use>
-							</svg>
-							<p class="contacts-info">
-								<span class="contacts__label">Location</span>
-								<span class="contacts__value">Astana, Kazakhstan</span>
-							</p>
+						<div class="contacts__raw">
+							<a href="mailto:dilmun1101@gmail.com" target="_blank" rel="noopener noreferrer"
+								class="contacts__link contacts__link_border contacts__link_padding-right">
+								<svg class="icon">
+									<use href="./img/sprite.svg#email"></use>
+								</svg>
+								<p class="contacts-info">
+									<span class="contacts__label">Email</span>
+									<span class="contacts__value">dilmun1101@gmail.com</span>
+								</p>
+							</a>
+
+							<div class="contacts__link contacts__link_padding-left">
+								<svg class="icon">
+									<use href="./img/sprite.svg#location"></use>
+								</svg>
+								<p class="contacts-info">
+									<span class="contacts__label">Location</span>
+									<span class="contacts__value">Astana, Kazakhstan</span>
+								</p>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -74,7 +87,7 @@
 			<div class='line'></div>
 		</header>
 		<main class="main">
-			<section class='about-me'>
+			<section id='profile' class='about-me'>
 				<h2 class="title">Profile</h2>
 				<p class='about-me__description'>Junior front-end developer with experience building applications in JavaScript,
 					React, and Next.js, including collaborative work in a team environment. I develop component-based user
@@ -84,7 +97,7 @@
 			</section>
 			<div class="columns">
 				<div class="column-left">
-					<section class='column-left_section'>
+					<section id='skills' class='column-left_section'>
 						<h2 class='title'>Skills</h2>
 						<ul class="list list_marker-none">
 							<li class="item">
@@ -132,7 +145,7 @@
 						</ul>
 						<div class='line'></div>
 					</section>
-					<section class="column-left_section">
+					<section id='courses' class="column-left_section">
 						<h2 class="title">Courses</h2>
 						<ul class="list list_marker-none">
 							<li class="item"><a class='link' href="https://app.rs.school/certificate/b1en4jym">[ RS
@@ -144,7 +157,7 @@
 						</ul>
 						<div class='line'></div>
 					</section>
-					<section class="column-left_section">
+					<section id='education' class="column-left_section">
 						<h2 class="title">Education</h2>
 						<ul class="list list_marker-none">
 							<li class="item">Incomplete Higher Education in "Applied Informatics in Economics" Tomsk
@@ -153,7 +166,7 @@
 						</ul>
 						<div class='line'></div>
 					</section>
-					<section class="column-left_section">
+					<section id='languages' class="column-left_section">
 						<h2 class="title">Languages</h2>
 						<ul class="list list_marker-none">
 							<li class="item">Russian: native</li>
@@ -162,7 +175,7 @@
 					</section>
 				</div>
 				<div class="column-right">
-					<section class='projects'>
+					<section id='projects' class='projects'>
 						<h2 class="title">Projects</h2>
 						<div class="projects__container">
 							<div class="project">

@@ -12,7 +12,7 @@
 
 body {
 	font-family: "DM Serif Display";
-	background: rgba(238, 236, 245, 0.5);
+	background: rgb(237, 234, 230);
 	padding: 20px 0;
 }
 
@@ -25,9 +25,31 @@ body {
 
 .header {
 	position: relative;
+	padding: 0 0 20px 0;
+}
+
+.navigation__list {
 	display: flex;
-	align-items: center;
-	padding: 20px 0 20px 20px;
+	justify-content: space-between;
+	list-style: none;
+	padding-bottom: 20px;
+}
+
+.navigation__link {
+	display: block;
+	padding: 5px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-decoration: none;
+	color: inherit;
+	border: 1px solid #222;
+	cursor: pointer;
+}
+
+.navigation__link:hover {
+	border-color: #575645;
+	color: rgb(145, 143, 69);
+	transition: 1.5s;
 }
 
 .header-column__small {
